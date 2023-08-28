@@ -1,0 +1,23 @@
+@font-face {
+    font-family: 'Outward';
+    src: url('outward-borders-webfont.eot');
+    src: url('outward-borders-webfont.eot?#iefix') format('embedded-opentype'),
+         url('outward-borders-webfont.woff2') format('woff2'),
+         url('outward-borders-webfont.woff') format('woff'),
+         url('outward-borders-webfont.ttf') format('truetype'),
+         url('outward-borders-webfont.svg#outwardborders') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+marquee {
+    display: flex;
+    white-space: nowrap;
+    font-family: 'Outward';
+    font-size: 50vh;
+}
